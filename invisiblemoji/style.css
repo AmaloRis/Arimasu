@@ -1,0 +1,13 @@
+*{
+    width:100%;
+    heigth:100%;
+}
+body{
+    
+    background-color: #F2F2F0;
+}
+h1{
+    font-size:8vmax;
+    text-align: center;
+    color:#F2F2F0;
+}
