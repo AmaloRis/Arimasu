@@ -1,0 +1,231 @@
+html,head,body{
+    width:100%;
+    height:100%;
+    background-color:#80C4E9;
+}
+*{
+    margin:0 0 0 0 ;
+}
+
+
+
+
+
+@keyframes checkbox_leave{
+    0%{
+        opacity:1;
+    }
+    50%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+        display:none;
+    }
+
+}
+
+
+#checkbox_demasu_arimasu{
+    display: block;
+    margin:0 auto;
+    width:100vmin;
+    height:100vmin;
+    accent-color: #FF7F3E;
+}
+
+#checkbox_demasu_arimasu:checked{
+    animation-name: checkbox_leave;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-play-state:running;
+}
+
+
+#arimasu_box{
+    position:absolute;
+    top:40vh;
+    left:50vw;
+}
+.arimasu_style{
+    position:absolute;
+    font-size:10vmin;
+    color:#4335A7;
+    font-weight: 900;
+}
+
+#arimasu_a{
+    left:-1000vmin;
+}
+#arimasu_ri{
+    left:-1000vmin;
+}
+#arimasu_ma{
+    left:-1000vmin;
+}
+#arimasu_su{
+    left:-1000vmin;
+}
+
+@keyframes find_a{
+    0%{
+        top:0vh;
+        left:-500vmin;
+    }
+    40%{
+        top:0vh;
+        left:-20vmin;
+    }
+    100%{
+        top:0vh;
+        left:-20vmin;
+    }
+}
+@keyframes find_ri{
+    0%{
+        top:0vh;
+        left:-500vmin;
+    }
+    40%{
+        top:0vh;
+        left:-20vmin;
+    }
+    42%{
+        top:0vh;
+        left:-20vmin;
+    }
+    43%{
+        top:-10vh;
+        left:-20vmin;
+    }
+    47%{
+        top:-10vh;
+        left:-20vmin;
+    }
+    50%{
+        top:-10vh;
+        left:-10vmin;
+    }
+    51%{
+        top:-10vh;
+        left:-10vmin;
+    }
+    52%{
+        top:0vh;
+        left:-10vmin;
+    }
+    100%{
+        top:0vh;
+        left:-10vmin;
+    }
+}
+@keyframes find_ma{
+    0%{
+        top:0vmin;
+        left:-500vmin;
+    }
+    40%{
+        top:0vmin;
+        left:-20vmin;
+    }
+    41%{
+        top:0vmin;
+        left:-20vmin;
+    }
+    42%{
+        top:10vmin;
+        left:-20vmin;
+    }
+    48%{
+        top:10vmin;
+        left:-20vmin;
+    }
+    49%{
+        top:10vh;
+        left:0vmin;
+    }
+    58%{
+        top:10vh;
+        left:0vmin;
+    }
+    60%{
+        top:0vh;
+        left:0vmin;        
+    }
+    100%{
+        top:0vh;
+        left:0vmin;
+    }
+}
+@keyframes find_su{
+    0%{
+        top:0vmin;
+        left:-500vmin;
+    }
+    40%{
+        top:0vmin;
+        left:-20vmin;
+    }
+    41%{
+        top:0vmin;
+        left:-20vmin;
+    }
+    42%{
+        top:10vmin;
+        left:-20vmin;
+    }
+    48%{
+        top:10vmin;
+        left:-20vmin;
+    }
+    50%{
+        top:10vh;
+        left:10vmin;
+    }
+    52%{
+        top:0vh;
+        left:10vmin;        
+    }
+    100%{
+        top:0vh;
+        left:10vmin;
+    }
+}
+
+
+
+#checkbox_demasu_arimasu:checked + #arimasu_box #arimasu_a{
+    animation-name: find_a;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-play-state:running;
+}
+
+#checkbox_demasu_arimasu:checked + #arimasu_box #arimasu_ri{
+    animation-name: find_ri;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-play-state:running;
+}
+
+#checkbox_demasu_arimasu:checked + #arimasu_box #arimasu_ma{
+    animation-name: find_ma;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-play-state:running;
+}
+#checkbox_demasu_arimasu:checked + #arimasu_box #arimasu_su{
+    animation-name: find_su;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-play-state:running;
+}
