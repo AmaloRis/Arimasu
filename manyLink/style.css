@@ -1,0 +1,27 @@
+body{
+    background-color: #EBD8B2;
+}
+h1{
+    width:100%;
+    text-align: center;
+    font-size:20vmin;
+    color:#6C9BCF;
+}
+div{
+    color:#654E92;
+}
+a:link{
+    color:#654E92;
+    text-decoration: none;
+}
+a:visited{
+    color:#654E92;
+    text-decoration: none;
+}
+a:hover{
+    cursor: text;
+}
+a:active{
+    color:#654E92;
+    text-decoration: none;
+}
