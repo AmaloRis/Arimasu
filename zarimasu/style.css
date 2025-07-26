@@ -1,0 +1,48 @@
+*{
+    position:absolute;
+    margin: 0;
+}
+html{
+    width:100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    background-color: #65a063;
+}
+#viewbox{
+    margin-top: 5vmin;
+    width:40vmin;
+    height: 30vmin;
+    background-color: #fff;
+}
+.gazo{
+    width:100%;
+    height: 100%;
+}
+#speed{
+    bottom:-3vmin;
+}
+#label{
+    bottom:-5vmin;
+    left:4vmin;
+}
+/*
+.gazo{
+    width:100%;
+    height: 100%;
+    filter:drop-shadow(-20px 16px 3px #000);
+}
+#speed{
+    bottom:-3vmin;
+    filter:drop-shadow(-20px 16px 4px #000);
+}
+#label{
+    bottom:-5vmin;
+    left:4vmin;
+    filter:drop-shadow(-20px 16px 3px #000);
+}
+*/
