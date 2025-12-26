@@ -1,0 +1,87 @@
+*{
+    margin:0;
+}
+html,body{
+    width:100%;
+    height: 100%;
+    background-color: #F6F4E6;
+}
+#tyuuou{
+    width:60vw;
+    height:40vw;
+    left:20vw;
+    position:fixed;
+    z-index: 1;
+}
+#window_toparea{
+    height:30vmin;
+}
+#arimasu_area{
+    margin:auto;
+    width:70vmin;
+
+}
+.arimasu_arrival{
+    display: inline-block;
+    width:15vmin;
+    height:15vmin;
+    color: #41444B;
+    font-size: 15vmin;
+    opacity: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+
+#window_bottomarea{
+    top:30%;
+    height:70%;
+    z-index: 0;
+}
+#button_area{
+    margin:auto;
+    width:70vmin;
+}
+.jun_button{
+    display: inline-block;
+    width:15vmin;
+    height:15vmin;
+    border: 1px,double,#52575D;
+    background-color: #fddc3aad;
+    user-select: none;
+    transition-property:all;
+    transition-duration:0.1s;
+    transition-timing-function:ease-out;
+
+}
+
+.jun_button:hover{
+    border-radius: 10px;
+}
+.jun_button:active{
+    border: 1px,double,#303131;
+    background-color: #c9af31;
+}
+
+
+#number_area{
+    width:60vw;
+    height:40vw;
+    left:20vw;
+    position: relative;
+}
+#box_area{
+    margin:auto;
+    width:70vmin;
+}
+
+.junjo{
+    display: inline-block;
+    width:15vmin;
+    height:15vmin;
+    user-select: none;
+    font-size: 5vw;
+    text-align: center;
+}
